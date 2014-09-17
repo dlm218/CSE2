@@ -19,6 +19,7 @@ public class Root {
         guess = ((2 * guess * guess * guess + nNumber)/( 3 * guess * guess)); //improves guess even more
         guess = ((2 * guess * guess * guess + nNumber)/( 3 * guess * guess)); //improves guess yet again
         System.out.println("The cube root is " +guess); //displayes the crude estimate of the cube root of the inputed number
+        System.out.println(+guess+ "*" +guess+ "*" +guess);
         System.out.println("Guess cubed is " +guess * guess * guess); //displayes crude estimate of the guess cubed
     }
 }
