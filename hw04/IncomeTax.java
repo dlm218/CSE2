@@ -45,6 +45,5 @@ public class IncomeTax {
             System.out.println("You did not enter an int");
             return; //displayed if an int is not entered, then kills programs
             }
-        
         }
     }
