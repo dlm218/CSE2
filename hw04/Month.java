@@ -22,8 +22,8 @@ public class Month {
                  if(month == 4 || month == 6 || month == 9 || month == 11) {
                     System.out.println("The month has 30 days"); //if number entered is any of the above, display this message
                 }
-                System.out.print("Enter an int giving the year: "); //message that is diplayed if number entered is 2
                 if(month == 2) {
+                     System.out.print("Enter an int giving the year: "); //message that is diplayed if number entered is 2
                     year = myScanner.nextInt();
                     if(year % 4 == 0) { //checks to see if year entered is a leap year
                         System.out.println("The month has 29 days"); //message displayed
