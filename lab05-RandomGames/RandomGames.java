@@ -32,8 +32,14 @@ public class RandomGames {
         else {
         switch (game) {
             case "R": case "r":
+                if(roulette == 37){
+                    System.out.println("00");
+                    return;
+                }
+                else{
                 System.out.println(roulette);
                 return;
+                }
             case "C": case "c":
                 System.out.println(craps1+ " + " +craps2+ " = " +(craps1 + craps2));
                 return;
