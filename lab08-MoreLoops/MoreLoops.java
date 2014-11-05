@@ -105,7 +105,7 @@ public class MoreLoops{
                 break;//exits program if n=5
             }
             if(count > 10)
-                break;//once count gets greater then 10
+                break;//once count gets greater then 10, exit loop
         }
     }
 }
