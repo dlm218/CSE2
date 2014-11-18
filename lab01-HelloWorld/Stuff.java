@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Stuff {
     public static void main(String [] args) {
         /*double test = 7 / 8 + 6 - 6 + (double) 8 * 4;
@@ -38,7 +39,7 @@ public class Stuff {
             else if(i < 34 && i > 1){
             System.out.println("["+i+"]");
             }
-        }*
+        }
         int w = 3;
         int x = 2;
         for(int z = 0; z<w; z++){
@@ -52,8 +53,76 @@ public class Stuff {
                 
             }
             x++;
+        }*/
+        
+        /*int num = 0;
+        int z = 1;
+        for(int j = 0; j < 5; j++){
+            for(int k = 0; k < z; k++){
+                for(int i = 0; i < 1; i++){
+                    System.out.print(num);
+                }
+            }
+            System.out.println();
+            z++;
+            num++;
         }
-
-    } 
+        
+        z = 5;
+        num = 5;
+        for(int j =0; j < 5; j++){
+            for(int k = 0; k < z; k++){
+                for(int i = 0; i < 1; i++){
+                    System.out.print(num);
+                }
+            }
+            System.out.println();
+            z--;
+            num++;
+        }*/
+        /*int k = 1;
+        for(int i = 0, j = 1; i <7; i++){
+            if(i==0){
+                System.out.println("[START]");
+            }
+                if(j!=22){
+                    System.out.println(j);
+                }
+            if(i==6){
+                System.out.println("[END]");
+            }
+            j += k;
+            k++;
+        }*/
     
+        /*int i = 1;
+        for(int j = 0, y =1; j < 4; j++){
+            
+            int z = 1;
+            for(int k = 0; k < y; k++){
+                for(int w = 0; w < z; w++){
+                    System.out.print(i);
+                }
+                z++;
+                System.out.println();
+            }
+            y++;
+            //System.out.println();
+            i = i*2;
+        }*/
+        
+        int z = 9;
+        int y = 8;
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < y; j++){
+                System.out.print(" ");
+            }
+            for(int k = 1; k < 2; k++){
+                System.out.print(z);
+            }
+            System.out.println();
+            z--;
+            y--;
+        }
+}
 }

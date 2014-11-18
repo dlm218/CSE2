@@ -38,10 +38,10 @@ public class BigMacAgain {
         
         if(wantsFries.equals("Y") || wantsFries.equals("y")) { //makes sure the input is either Y or y
                 System.out.println("You ordered fries at a cost of $2.15 "); //prints message
-                System.out.println("The total cost of the meal is " +(costMacs + 2.15)); //prints message
+                System.out.println("The total cost of the meal is $" +(costMacs + 2.15)); //prints message
             }
         else if(wantsFries.equals("N") || wantsFries.equals("n")) { //makes sure the input is N or n if it is not Y or y
-                System.out.print("The total cost of the meal is " +(nMacs * 2.22)); //prints message
+                System.out.print("The total cost of the meal is $" +(nMacs * 2.22)); //prints message
         }    
         else { //what happens if neither of the ubove if statements are true
                 System.out.print("You did not enter one of 'Y' , 'y' , 'N' , 'n' ");
