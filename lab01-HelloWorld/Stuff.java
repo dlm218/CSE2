@@ -111,7 +111,7 @@ public class Stuff {
             i = i*2;
         }*/
         
-        int z = 9;
+        /*int z = 9;
         int y = 8;
         for(int i = 0; i < 9; i++){
             for(int j = 0; j < y; j++){
@@ -123,6 +123,61 @@ public class Stuff {
             System.out.println();
             z--;
             y--;
-        }
+        }*/
+        
+        /*int myValue = 4;
+switch( myValue ){
+	case 1:
+		myValue += 2;
+		break;
+	case 2:
+		myValue /= 2;
+		System.out.println("Go Lehigh: " + myValue);
+	case 3:
+		myValue *= 2;
+		System.out.println("hello: " + myValue);
+	case 4:
+		myValue -= 2;
+		System.out.println("goodbye: " + myValue);
+	case 5:
+	case 6:
+		myValue -= 2;
+		System.out.println("testing: " + myValue);
+		break;
+	default: 
+		System.out.println("default: " + myValue);
+		break;
+}*/
+
+/*int [] A = {0, 1, 2, 3, 4};
+int temp = A[4];
+for(int i = 3; i >= 0; i--){
+    A[i+1] = A[i];
 }
+A[0] = temp;
+System.out.println(A[0]+ " ," +A[1]+ " ," +A[2]+ " ," +A[3]+ " ," +A[4]);
+*/
+
+/*int [] a = {0, 1, 2, 3};
+a = expand(a);
+for(int j = 0; j < a.length; j++){
+    System.out.println(a[j]);
+}
+
+
+
+}
+public static int[] expand(int[] in){
+    int [] out = new int[2*in.length];
+    for(int i = 0; i < in.length; i++){
+        out[i] = in[i];
+    }
+    return out;
+}*/
+
+int [] array = {0, 1, 2, 3, 4};
+System.out.println(array[21]);
+System.out.println(array[2]);
+}
+    
 }
