@@ -18,11 +18,12 @@ public class MoreLoops{
     	System.out.print("You did not enter an int; try again- ");
         }*/
         
-        
-        do{//do-while-loop converted from while-loop
-            scan.next();//clears value of scan if int is not entered
-            System.out.print("You did not enter an unt; try again: ");//reprompts user for input
-        } while(!scan.hasNextInt());//loop runs while condition is true
+        if(!scan.hasNextInt()){
+            do{//do-while-loop converted from while-loop
+                scan.next();//clears value of scan if int is not entered
+                System.out.print("You did not enter an int; try again: ");//reprompts user for input
+            } while(!scan.hasNextInt());//loop runs while condition is true
+        }
         
         //n=scan.nextInt();
 
